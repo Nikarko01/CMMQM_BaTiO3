@@ -1,0 +1,51 @@
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 2)
+slurmstepd: error: *** STEP 307950.0 ON f393 CANCELLED AT 2017-12-30T15:24:37 ***
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f393: tasks 0-27: Killed
+srun: Terminating job step 307950.0

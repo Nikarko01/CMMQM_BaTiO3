@@ -1,0 +1,40 @@
+slurmstepd: error: task/cgroup: unable to add task[pid=92289] to memory cg '(null)'
+STARTING AT Wed Dec 6 10:34:01 CET 2017
+ running the scf calculation at cutoff 30  Ryd
+slurmstepd: error: task/cgroup: unable to add task[pid=92349] to memory cg '(null)'
+forrtl: severe (24): end-of-file during read, unit 9, file /scratch/shernand/QE_Phonons/input_tmp.in
+Image              PC                Routine            Line        Source             
+pw.x               0000000000B42B66  Unknown               Unknown  Unknown
+pw.x               0000000000B78D27  Unknown               Unknown  Unknown
+pw.x               000000000085BAEE  read_namelists_mo        1963  read_namelists.f90
+pw.x               0000000000852947  read_namelists_mo        1831  read_namelists.f90
+pw.x               0000000000850DF4  read_input_mp_rea          68  read_input.f90
+pw.x               000000000040691C  MAIN__                     47  pwscf.f90
+pw.x               000000000040689E  Unknown               Unknown  Unknown
+libc-2.17.so       00007F5D9F753B35  __libc_start_main     Unknown  Unknown
+pw.x               00000000004067A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 9, file /scratch/shernand/QE_Phonons/input_tmp.in
+Image              PC                Routine            Line        Source             
+pw.x               0000000000B42B66  Unknown               Unknown  Unknown
+pw.x               0000000000B78D27  Unknown               Unknown  Unknown
+pw.x               000000000085BAEE  read_namelists_mo        1963  read_namelists.f90
+pw.x               0000000000852947  read_namelists_mo        1831  read_namelists.f90
+pw.x               0000000000850DF4  read_input_mp_rea          68  read_input.f90
+pw.x               000000000040691C  MAIN__                     47  pwscf.f90
+pw.x               000000000040689E  Unknown               Unknown  Unknown
+libc-2.17.so       00007F33C271BB35  __libc_start_main     Unknown  Unknown
+pw.x               00000000004067A9  Unknown               Unknown  Unknown
+forrtl: severe (24): end-of-file during read, unit 9, file /scratch/shernand/QE_Phonons/input_tmp.in
+Image              PC                Routine            Line        Source             
+pw.x               0000000000B42B66  Unknown               Unknown  Unknown
+pw.x               0000000000B78D27  Unknown               Unknown  Unknown
+pw.x               000000000085BAEE  read_namelists_mo        1963  read_namelists.f90
+pw.x               0000000000852947  read_namelists_mo        1831  read_namelists.f90
+pw.x               0000000000850DF4  read_input_mp_rea          68  read_input.f90
+pw.x               000000000040691C  MAIN__                     47  pwscf.f90
+pw.x               000000000040689E  Unknown               Unknown  Unknown
+libc-2.17.so       00007F6B0061AB35  __libc_start_main     Unknown  Unknown
+pw.x               00000000004067A9  Unknown               Unknown  Unknown
+slurmstepd: error: *** JOB 3078403 ON c23 CANCELLED AT 2017-12-06T23:04:26 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3078403.0 ON c23 CANCELLED AT 2017-12-06T23:04:26 DUE TO TIME LIMIT ***

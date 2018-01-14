@@ -1,0 +1,11 @@
+Execute a job in the cluster
+
+the .run script is NOT the main program (in our case the main program is QE s pw.x)
+
+sbatch script.run
+
+To see the queue status run the mysqueue.sh script
+There you can see the JOBID for additional stuff you would do with it.
+
+to see the control of a specific job
+scontrol &JOBID

@@ -1,0 +1,48 @@
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+
+mkdir fail: [13] Permission denied
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 19)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 7)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 16)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 9)
+slurmstepd: error: *** STEP 308095.0 ON f105 CANCELLED AT 2017-12-30T16:51:04 ***
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 18)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f105: tasks 0-4,6-27: Killed
+srun: Terminating job step 308095.0
+srun: error: f105: task 5: Exited with exit code 1

@@ -1,0 +1,32 @@
+slurmstepd: error: execve(): pw.x: No such file or directory
+slurmstepd: error: execve(): pw.x: No such file or directory
+slurmstepd: error: execve(): pw.x: No such file or directory
+slurmstepd: error: execve(): pw.x: No such file or directory
+srun: error: f033: tasks 1,14,21,25: Exited with exit code 2
+srun: Terminating job step 308105.0
+slurmstepd: error: execve(): pw.x: No such file or directory
+slurmstepd: error: *** STEP 308105.0 ON f033 CANCELLED AT 2017-12-30T18:24:27 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f033: tasks 0,2-13,15-16,18-20,22-24,26-27: Killed
+srun: error: f033: task 17: Exited with exit code 2
+slurmstepd: error: execve(): pw.x: No such file or directory
+srun: error: f033: task 23: Exited with exit code 2
+srun: Terminating job step 308105.1
+slurmstepd: error: *** STEP 308105.1 ON f033 CANCELLED AT 2017-12-30T18:24:28 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f033: tasks 0-22,24-27: Killed
+slurmstepd: error: execve(): pw.x: No such file or directory
+slurmstepd: error: execve(): pw.x: No such file or directory
+srun: error: f033: tasks 10,17: Exited with exit code 2
+srun: Terminating job step 308105.2
+slurmstepd: error: *** STEP 308105.2 ON f033 CANCELLED AT 2017-12-30T18:24:29 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f033: tasks 0-9,11-16,18-27: Killed
+slurmstepd: error: execve(): pw.x: No such file or directory
+srun: error: f033: task 17: Exited with exit code 2
+srun: Terminating job step 308105.3
+slurmstepd: error: execve(): pw.x: No such file or directory
+slurmstepd: error: *** STEP 308105.3 ON f033 CANCELLED AT 2017-12-30T18:24:30 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f033: tasks 0-16,18,20-27: Killed
+srun: error: f033: task 19: Exited with exit code 2
