@@ -1,5 +1,6 @@
 # CMMQM
-Repository for the course of Computational Methods of Molecular Quantum Mechanics by prof. Sara Bonella in the semester 2017-20.
+
+Repository for the BaTiO3 Project for course of Computational Methods of Molecular Quantum Mechanics by prof. Sara Bonella in the semester 2017-20.
 
 # Cluster connection
 
