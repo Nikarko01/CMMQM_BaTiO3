@@ -1,0 +1,47 @@
+&CONTROL
+        calculation='scf'
+        restart_mode='from_scratch',
+        iprint = 20,
+        tstress = .true.,
+        tprnfor = .true.,
+        title = 'cubic BaTiO3 scf xc=PBE'
+        prefix='bto',
+        pseudo_dir = '../../PSP_DIR'
+        outdir = './'
+        max_seconds = 3500,
+/
+
+&SYSTEM
+       ibrav = 6,
+       celldm(1) =  7.4842960936 ! 7.40*1.011391364,
+       celldm(3) = 1.0337122347  ! 1.045487627/1.011391364,
+       nat = 5,
+       ntyp = 3,
+       occupations='fixed',
+       ecutwfc = 50,    ! Low cutting for performance
+       ecutrho = 400,   ! Low cutting for performance
+       nbnd = 24,
+/
+
+&ELECTRONS
+        mixing_mode = 'plain',
+        mixing_beta = 0.6,
+        conv_thr = 1.0D-12,
+/
+
+ATOMIC_SPECIES
+        O   15.99  O.pbe-rrkjus.UPF
+        Ti  47.88 Ti.pbe-sp-van_ak.UPF
+        Ba 137.33 Ba.pbe-nsp-van.UPF
+
+
+ATOMIC_POSITIONS {crystal}
+        Ba         0.000000000   0.000000000  0.023304873
+        Ti         0.500000000   0.500000000  0.468154265
+        O          0.500000000   0.500000000  0.021854084 
+        O          0.000000000   0.500000000  0.511648261
+        O          0.500000000   0.000000000  0.511648261
+
+K_POINTS {automatic}
+        6 6 6   1 1 1
+

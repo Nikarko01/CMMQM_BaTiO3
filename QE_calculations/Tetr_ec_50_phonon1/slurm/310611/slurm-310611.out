@@ -1,0 +1,27 @@
+Called data_process.sh script:
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+DATA PROCESS STARTING AT mer 10 gen 2018, 15.23.07, CET
+  transforming C(q) => C(R)...
+ q2r.x done
+  recalculating omega(q) from C(R)...
+slurmstepd: error: Exceeded job memory limit at some point.
+srun: error: f397: tasks 0-2,4,6-7,9,11-14,16-18,20-21,24-27: Out Of Memory
+srun: Terminating job step 310611.1
+slurmstepd: error: *** STEP 310611.1 ON f397 CANCELLED AT 2018-01-10T15:23:13 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+ matdyn.x done
+  writing the phonon dispersions in freq.plot...
+Error reading file header
+ plotband.x done
+  calculating phonon DOS ...
+slurmstepd: error: Exceeded job memory limit at some point.
+srun: error: f397: tasks 0-27: Out Of Memory
+srun: Terminating job step 310611.2
+ DOS done
+  generating plot of phonon_dos in the file bto.phdos.ps...
+ gnuplot done
+DATA PROCESS FINISHED at mer 10 gen 2018, 15.23.21, CET
+slurmstepd: error: Exceeded job memory limit at some point.

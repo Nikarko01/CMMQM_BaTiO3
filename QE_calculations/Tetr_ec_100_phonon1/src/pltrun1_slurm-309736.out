@@ -1,0 +1,26 @@
+/var/spool/slurmd/job309736/slurm_script: line 11:   transforming C(q) => C(R)...: command not found
+/var/spool/slurmd/job309736/slurm_script: line 12: matdyn.x: command not found
+/var/spool/slurmd/job309736/slurm_script: line 14:  matdyn.x done: command not found
+/var/spool/slurmd/job309736/slurm_script: line 33:   recalculating omega(q) from C(R)...: command not found
+slurmstepd: error: execve(): q2r.x: No such file or directory
+srun: error: f320: task 0: Exited with exit code 2
+srun: Terminating job step 309736.0
+/var/spool/slurmd/job309736/slurm_script: line 36:  q2r.x done: command not found
+/var/spool/slurmd/job309736/slurm_script: line 47:   writing the phonon dispersions in freq.plot...: command not found
+/var/spool/slurmd/job309736/slurm_script: line 48: plotband.x: command not found
+/var/spool/slurmd/job309736/slurm_script: line 49:  plotband.x done: command not found
+/var/spool/slurmd/job309736/slurm_script: line 77:   creating the postscript file bto.dispersion.ps...: command not found
+"gnuplot.tmp", line 24: warning: Skipping unreadable file "freq.plot"
+"gnuplot.tmp", line 24: No data in plot
+
+/var/spool/slurmd/job309736/slurm_script: line 80:  postscript done: command not found
+/var/spool/slurmd/job309736/slurm_script: line 97:   calculating phonon DOS ...: command not found
+slurmstepd: error: execve(): matdyn.x: No such file or directory
+srun: error: f320: task 0: Exited with exit code 2
+srun: Terminating job step 309736.1
+/var/spool/slurmd/job309736/slurm_script: line 100:  DOS done: command not found
+/var/spool/slurmd/job309736/slurm_script: line 113:   generating plot of phonon_dos in the file bto.phdos.ps...: command not found
+"gnuplot1.tmp", line 9: warning: Skipping unreadable file "bto.phdos"
+"gnuplot1.tmp", line 9: No data in plot
+
+/var/spool/slurmd/job309736/slurm_script: line 116:  gnuplot done: command not found

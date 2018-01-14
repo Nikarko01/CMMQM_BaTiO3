@@ -1,0 +1,6 @@
+bto.freq
+0 600     ! min max energy range plot
+freq.plot ! output
+freq.ps	  ! output
+0.0       ! Fermi energy taken from pw.x
+50.0 0.0  ! delta E - the smallest step | Fermi energy plot level

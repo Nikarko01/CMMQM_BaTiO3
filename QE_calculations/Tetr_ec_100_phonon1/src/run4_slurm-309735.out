@@ -1,0 +1,37 @@
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+Phonon only mode active
+DFPT STARTING at dom 7 gen 2018, 09.56.01, CET
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+srun: error: f320: tasks 0-27: Exited with exit code 1
+srun: Terminating job step 309735.0
+DFPT FINISHED at dom 7 gen 2018, 10.52.48, CET

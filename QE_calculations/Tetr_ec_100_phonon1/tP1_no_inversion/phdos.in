@@ -1,0 +1,12 @@
+ &input
+        asr='simple',
+        dos=.true. 
+        amass(1)=15.99,
+        amass(2)=47.88,
+        amass(3)=137.33,
+        flfrc='bto.fc',
+        fldos='bto.phdos',
+        nk1=6,
+        nk2=6,
+        nk3=6
+ /

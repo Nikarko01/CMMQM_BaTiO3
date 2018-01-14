@@ -1,0 +1,5 @@
+get more pseudopotentials on:
+
+http://www.quantum-espresso.org/pseudopotentials/
+
+be sure to be consisten with the functional (PW, PBE, PBEsol, ...) and the type of potential (PAW, NORMCONS...) amang all atoms

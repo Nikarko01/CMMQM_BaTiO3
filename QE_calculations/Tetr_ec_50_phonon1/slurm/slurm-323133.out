@@ -1,0 +1,10 @@
+Called proc_frequencies.sh script: process frequencies
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+DATA PROCESS STARTING AT gio 11 gen 2018, 14.52.35, CET
+  writing the phonon dispersions in freq.plot...
+Error reading file header
+ plotband.x done
+DATA PROCESS FINISHED at gio 11 gen 2018, 14.52.35, CET

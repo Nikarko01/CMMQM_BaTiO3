@@ -1,0 +1,56 @@
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+/var/spool/slurmd/job309737/slurm_script: line 19:   transforming C(q) => C(R)...: command not found
+matdyn.x: error: _get_addr: No error
+matdyn.x: error: _get_addr: No error
+matdyn.x: error: _get_addr: No error
+Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(805).....: fail failed
+MPID_Init(1831)...........: channel initialization failed
+MPIDI_CH3_Init(126).......: fail failed
+MPID_nem_init_ckpt(836)...: fail failed
+MPIDI_CH3I_Seg_commit(318): PMI_Barrier returned -1
+In: PMI_Abort(69777679, Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(805).....: fail failed
+MPID_Init(1831)...........: channel initialization failed
+MPIDI_CH3_Init(126).......: fail failed
+MPID_nem_init_ckpt(836)...: fail failed
+MPIDI_CH3I_Seg_commit(318): PMI_Barrier returned -1)
+/var/spool/slurmd/job309737/slurm_script: line 22:  matdyn.x done: command not found
+/var/spool/slurmd/job309737/slurm_script: line 41:   recalculating omega(q) from C(R)...: command not found
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f320: task 0: Exited with exit code 1
+srun: Terminating job step 309737.0
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+slurmstepd: error: *** STEP 309737.0 ON f320 CANCELLED AT 2018-01-07T11:02:31 ***
+/var/spool/slurmd/job309737/slurm_script: line 44:  q2r.x done: command not found
+/var/spool/slurmd/job309737/slurm_script: line 55:   writing the phonon dispersions in freq.plot...: command not found
+Error reading file header
+/var/spool/slurmd/job309737/slurm_script: line 57:  plotband.x done: command not found
+/var/spool/slurmd/job309737/slurm_script: line 85:   creating the postscript file bto.dispersion.ps...: command not found
+"gnuplot.tmp", line 24: warning: Skipping unreadable file "freq.plot"
+"gnuplot.tmp", line 24: No data in plot
+
+/var/spool/slurmd/job309737/slurm_script: line 88:  postscript done: command not found
+/var/spool/slurmd/job309737/slurm_script: line 105:   calculating phonon DOS ...: command not found
+forrtl: No such file or directory
+forrtl: severe (29): file not found, unit 1, file /home/nsbarchi/CMMQM/QE_calculations/Nicola/phonons_PBE/bto.fc
+Image              PC                Routine            Line        Source             
+matdyn.x           0000000000566466  Unknown               Unknown  Unknown
+matdyn.x           0000000000580E4E  Unknown               Unknown  Unknown
+matdyn.x           00000000004102DF  readfc_                   795  matdyn.f90
+matdyn.x           0000000000405189  MAIN__                    310  matdyn.f90
+matdyn.x           000000000040461E  Unknown               Unknown  Unknown
+libc-2.17.so       00007FAA2166BB35  __libc_start_main     Unknown  Unknown
+matdyn.x           0000000000404529  Unknown               Unknown  Unknown
+srun: error: f320: task 0: Exited with exit code 29
+srun: Terminating job step 309737.1
+/var/spool/slurmd/job309737/slurm_script: line 108:  DOS done: command not found
+/var/spool/slurmd/job309737/slurm_script: line 121:   generating plot of phonon_dos in the file bto.phdos.ps...: command not found
+"gnuplot1.tmp", line 9: warning: Skipping unreadable file "bto.phdos"
+"gnuplot1.tmp", line 9: No data in plot
+
+/var/spool/slurmd/job309737/slurm_script: line 124:  gnuplot done: command not found

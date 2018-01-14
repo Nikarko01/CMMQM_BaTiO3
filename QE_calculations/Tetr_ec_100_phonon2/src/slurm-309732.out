@@ -1,0 +1,56 @@
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+Phonon only mode active
+DFPT STARTING at dom 7 gen 2018, 09.29.10, CET
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 15)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 8)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 27)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 6)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 25)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 13)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 3)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 12)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 11)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 1)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 14)
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22
+In: PMI_Abort(1, application called MPI_Abort(MPI_COMM_WORLD, 1) - process 22)
+slurmstepd: error: *** STEP 309732.0 ON f320 CANCELLED AT 2018-01-07T09:29:13 ***
+srun: error: f320: tasks 0-7,9-16,18-27: Killed
+srun: Terminating job step 309732.0
+srun: error: f320: tasks 8,17: Exited with exit code 1
+DFPT FINISHED at dom 7 gen 2018, 09.29.13, CET

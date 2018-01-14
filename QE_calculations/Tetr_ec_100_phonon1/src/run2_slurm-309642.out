@@ -1,0 +1,31 @@
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+SCF STARTING AT sab 6 gen 2018, 18.00.03, CET
+  running the scf calculation...
+from test_input_xml: input file not opened or empty
+forrtl: severe (24): end-of-file during read, unit 9, file /home/nsbarchi/CMMQM/QE_calculations/Nicola/phonons_PBE/input_tmp.in
+Image              PC                Routine            Line        Source             
+pw.x               0000000000B42BE6  Unknown               Unknown  Unknown
+pw.x               0000000000B78DA7  Unknown               Unknown  Unknown
+pw.x               000000000085BB6E  read_namelists_mo        1963  read_namelists.f90
+pw.x               00000000008529C7  read_namelists_mo        1831  read_namelists.f90
+pw.x               0000000000850E74  read_input_mp_rea          68  read_input.f90
+pw.x               000000000040699C  MAIN__                     47  pwscf.f90
+pw.x               000000000040691E  Unknown               Unknown  Unknown
+libc-2.17.so       00007F33F96B0B35  __libc_start_main     Unknown  Unknown
+pw.x               0000000000406829  Unknown               Unknown  Unknown
+srun: error: f210: task 0: Exited with exit code 24
+srun: Terminating job step 309642.0
+slurmstepd: error: *** STEP 309642.0 ON f210 CANCELLED AT 2018-01-06T18:00:05 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: f210: tasks 1-27: Killed
+ scf done
+SCF FINISHED at sab 6 gen 2018, 18.00.05, CET
+starting DFPT
+STARTING at sab 6 gen 2018, 18.00.05, CET
+  running the phonon calculation ...
+/var/spool/slurmd/job309642/slurm_script: line 106: BT.PBE.phi: File o directory non esistente
+DFPT done
+FINISHED at sab 6 gen 2018, 18.00.05, CET

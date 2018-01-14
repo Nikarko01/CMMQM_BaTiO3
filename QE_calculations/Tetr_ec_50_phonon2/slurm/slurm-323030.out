@@ -1,0 +1,18 @@
+Called data_process.sh script:
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+DATA PROCESS STARTING AT gio 11 gen 2018, 09.10.15, CET
+  transforming C(q) => C(R)...
+ q2r.x done
+  recalculating omega(q) from C(R)...
+ matdyn.x done
+  writing the phonon dispersions in freq.plot...
+Error reading file header
+ plotband.x done
+  calculating phonon DOS ...
+ DOS done
+  generating plot of phonon_dos in the file bto.phdos.ps...
+ gnuplot done
+DATA PROCESS FINISHED at gio 11 gen 2018, 09.31.58, CET

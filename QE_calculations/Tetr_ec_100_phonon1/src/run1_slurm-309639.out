@@ -1,0 +1,26 @@
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+SCF STARTING AT sab 6 gen 2018, 17.28.34, CET
+  running the scf calculation...
+pw.x: error: _get_addr: No error
+pw.x: error: _get_addr: No error
+Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(805).....: fail failed
+MPID_Init(1831)...........: channel initialization failed
+MPIDI_CH3_Init(126).......: fail failed
+MPID_nem_init_ckpt(836)...: fail failed
+MPIDI_CH3I_Seg_commit(380): PMI_KVS_Commit returned -1
+In: PMI_Abort(69253391, Fatal error in MPI_Init: Other MPI error, error stack:
+MPIR_Init_thread(805).....: fail failed
+MPID_Init(1831)...........: channel initialization failed
+MPIDI_CH3_Init(126).......: fail failed
+MPID_nem_init_ckpt(836)...: fail failed
+MPIDI_CH3I_Seg_commit(380): PMI_KVS_Commit returned -1)
+ scf done
+SCF FINISHED at sab 6 gen 2018, 17.28.34, CET
+  running the phonon calculation ...
+/var/spool/slurmd/job309639/slurm_script: line 106: BT.PBE.phi: File o directory non esistente
+DFPT done
+FINISHED at sab 6 gen 2018, 17.28.34, CET
