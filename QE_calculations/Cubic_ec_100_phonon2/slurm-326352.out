@@ -1,0 +1,39 @@
+Called data_process.sh script:
+Loading modules
+[INFO] S+L release: stable
+[INFO] S+L systype: x86_E5v4_Mellanox
+[INFO] S+L engaged!
+  transforming C(q) => C(R)...
+ q2r.x done
+  recalculating omega(q) from C(R)...
+srun: error: f108: task 0: Exited with exit code 59
+srun: Terminating job step 326352.1
+forrtl: severe (59): list-directed I/O syntax error, unit 5, file /proc/31613/fd/0
+Image              PC                Routine            Line        Source             
+matdyn.x           0000000000566466  Unknown               Unknown  Unknown
+matdyn.x           00000000005A3C0C  Unknown               Unknown  Unknown
+matdyn.x           00000000005A1DF6  Unknown               Unknown  Unknown
+matdyn.x           00000000004065EE  MAIN__                    403  matdyn.f90
+matdyn.x           000000000040461E  Unknown               Unknown  Unknown
+libc-2.17.so       00007F3D5C24EB35  __libc_start_main     Unknown  Unknown
+matdyn.x           0000000000404529  Unknown               Unknown  Unknown
+ matdyn.x done
+  writing the phonon dispersions in freq.plot...
+forrtl: severe (43): file name specification error, unit 1, file "Unknown"
+Image              PC                Routine            Line        Source             
+plotband.x         0000000000438AD6  Unknown               Unknown  Unknown
+plotband.x         00000000004500BE  Unknown               Unknown  Unknown
+plotband.x         0000000000403E1A  MAIN__                     62  plotband.f90
+plotband.x         0000000000403D5E  Unknown               Unknown  Unknown
+libc-2.17.so       00007FC5C1B80B35  __libc_start_main     Unknown  Unknown
+plotband.x         0000000000403C69  Unknown               Unknown  Unknown
+ plotband.x done
+  creating the postscript file bto.dispersion.ps...
+"gnuplot.tmp", line 24: warning: Skipping unreadable file "freq.plot"
+"gnuplot.tmp", line 24: No data in plot
+
+ postscript done
+  calculating phonon DOS ...
+ DOS done
+  generating plot of phonon_dos in the file bto.phdos.ps...
+ gnuplot done

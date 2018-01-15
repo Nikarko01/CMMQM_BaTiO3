@@ -1,0 +1,30 @@
+set encoding iso_8859_15
+set terminal postscript enhanced solid color "Helvetica" 20
+set output "bto.dispersions_neg.ps"
+#
+set key off
+
+set xrange [0:2.2071]
+dim=450
+dim_neg=-150
+set yrange [dim_neg:dim]
+
+set arrow from 0 to 2.2071,0.,dim nohead  lw 2
+
+l1= 0.5
+l2= 1
+l3= 1.707
+set arrow from l1,dim_neg to l1,dim nohead  lw 2
+set arrow from l2,dim_neg to l2,dim nohead  lw 2
+set arrow from l3,dim_neg to l3,dim nohead  lw 2
+set ylabel "frequency (cm^{-1})"
+unset xtics
+lpos=-15
+set label "{/Symbol G}" at -0.05,lpos
+set label "X" at 0.5,lpos
+set label "M" at 1,lpos
+set label "{/Symbol G}" at 1.70710678118655,lpos
+set label "Z" at 2.20710678118655,lpos
+
+
+plot "freq.plot" u 1:2 w l lw 3
