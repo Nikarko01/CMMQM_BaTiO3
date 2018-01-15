@@ -1,0 +1,5 @@
+ &input
+        fildyn='bto.dyn',
+        zasr='simple',
+        flfrc='bto.fc'
+/

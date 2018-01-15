@@ -1,0 +1,23 @@
+ &input
+        asr='simple',
+        amass(1)=15.99,
+        amass(2)=47.88,
+        amass(3)=137.33,
+        flfrc='bto.fc', ! Force costants file from p2r
+        flfrq='bto.freq', ! Output requencies
+        q_in_band_form=.true., ! q points are given in band form
+ /
+
+ 5  ! X-R-Γ-A-M --> |X—R|M—A
+
+    0.0 0.5 0.0    20
+
+    0.0 0.5 0.5    20
+
+    0.0 0.0 0.0    20
+
+    0.5 0.5 0.5    20
+
+    0.0 0.0 0.5    20
+
+
